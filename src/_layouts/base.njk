@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="ihatesquash">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} | I Hate Squash</title>
+  <meta name="description" content="{{ description or 'A passionate defense against the tyranny of squash' }}">
+  <link rel="stylesheet" href="/styles/output.css">
+</head>
+<body class="min-h-screen">
+  {% include "header.njk" %}
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  {% include "footer.njk" %}
+</body>
+</html>

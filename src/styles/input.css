@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-base-100;
+  }
+}
+
+@layer components {
+  .hero-gradient {
+    background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+  }
+
+  .squash-emoji {
+    filter: grayscale(100%) opacity(0.3);
+  }
+
+  .anti-squash-section {
+    @apply py-16 px-4;
+  }
+
+  .reason-card {
+    @apply card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300;
+  }
+}
