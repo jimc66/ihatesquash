@@ -10,3 +10,7 @@ updates:
     commit-message:
       prefix: "chore"
       include: "scope"
+    ignore:
+      # Ignore major version updates to avoid breaking changes
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
