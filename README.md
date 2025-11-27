@@ -6,6 +6,10 @@ A passionate defense against the tyranny of squash.
 
 ihatesquash.com is a humorous informational site dedicated to exposing the truth about squash vegetables. Built with honesty, humor, and a deep commitment to better vegetable choices.
 
+**Live Site:** [https://ihatesquash.com](https://ihatesquash.com)
+
+Deployed on Cloudflare Pages with automatic deployments from the `main` branch.
+
 ## Tech Stack
 
 - **Eleventy (11ty)** - Static site generator
@@ -74,6 +78,12 @@ ihatesquash/
 ├── tailwind.config.js    # Tailwind configuration
 └── package.json          # Dependencies and scripts
 ```
+
+## Contributing
+
+This repository is public and contributions are welcome! If you have ideas for improving the anti-squash message, feel free to open a pull request.
+
+Whether it's fixing typos, adding more reasons to hate squash, or suggesting better vegetables - all contributions that advance the cause are appreciated.
 
 ## License
 
