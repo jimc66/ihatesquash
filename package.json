@@ -14,7 +14,7 @@
   "author": "Jim Cuff",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.1.2",
     "concurrently": "^8.2.2",
     "daisyui": "^4.4.19",
     "tailwindcss": "^3.3.5"
